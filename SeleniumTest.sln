@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButton", "RadioButton\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropDownManu", "DropDownManu\DropDownManu.csproj", "{DFB22048-8070-4448-AEE8-40BD34FDA17B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertBox", "AlertBox\AlertBox.csproj", "{A2A31F42-4AF8-4229-8A37-80A1BDE1266A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm", "LoginForm\LoginForm.csproj", "{8587838A-2430-411C-BD78-92D8B4903E6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{DFB22048-8070-4448-AEE8-40BD34FDA17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFB22048-8070-4448-AEE8-40BD34FDA17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFB22048-8070-4448-AEE8-40BD34FDA17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A31F42-4AF8-4229-8A37-80A1BDE1266A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A31F42-4AF8-4229-8A37-80A1BDE1266A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A31F42-4AF8-4229-8A37-80A1BDE1266A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A31F42-4AF8-4229-8A37-80A1BDE1266A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8587838A-2430-411C-BD78-92D8B4903E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8587838A-2430-411C-BD78-92D8B4903E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8587838A-2430-411C-BD78-92D8B4903E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8587838A-2430-411C-BD78-92D8B4903E6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
