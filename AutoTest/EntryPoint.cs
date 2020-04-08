@@ -1,26 +1,40 @@
 ﻿using AutoTest.UIElements;
+using NUnit.Framework;
+using OpenQA.Selenium;
 using System.Threading;
 
 namespace AutoTest
 {
     public class EntryPoint
     {
+        IAlert alert;
         static void Main()
+        {            
+        }
+
+        [SetUp]
+        public void Initialize()
         {
-            
-            Driver.driver.Navigate().GoToUrl("http://testing.todvachev.com/");
+            Actions.InitializerDriver();
+        }
+
+        [Test]
+        public void ValidLogin()
+        {
             NavigateTo.LoginFormThroughtTheMenu();
-            Thread.Sleep(1000);
-
-            //Driver.driver.Navigate().GoToUrl("http://testing.todvachev.com/");
-            //NavigateTo.LoginFormThroughtThePost();
-            //Thread.Sleep(5000);
-            //Driver.driver.Quit();
-
             Actions.FillLoginForm(Config.Credentials.Valid.UserName, Config.Credentials.Valid.Password, Config.Credentials.Valid.RepeatPassword);
 
+            alert = Driver.driver.SwitchTo().Alert();
 
-            
+            Assert.AreEqual(Config.AlertMessages.SucceddfullLogin, alert.Text);
+
+            alert.Accept();
+        }
+
+        [TearDown]
+        public void CleanUp()
+        {
+            Driver.driver.Quit();
         }
 
     }

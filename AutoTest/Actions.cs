@@ -1,15 +1,16 @@
-﻿using AutoTest.UIElements;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿
+using AutoTest.UIElements;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace AutoTest
 {
     public class Actions
     {
+        public static void InitializerDriver()
+        {
+            Driver.driver.Navigate().GoToUrl(Config.BaseUrl);
+        }
+
         public static void FillLoginForm(string username, string password, string repeatpassword)
         {
             LoginScenarioPost lsPost = new LoginScenarioPost();

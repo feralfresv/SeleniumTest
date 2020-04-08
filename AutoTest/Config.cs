@@ -14,7 +14,6 @@ namespace AutoTest
                 public static string RepeatPassword = "asdf1234";
                 public static string Email = "fer@gmail.com";
             }
-
             public static class Invalid
             {
                 public static class UserName
@@ -36,5 +35,9 @@ namespace AutoTest
             }
         }
         
+        public static class AlertMessages
+        {
+            public static string SucceddfullLogin = "Succesful login!";
+        }
     }
 }
