@@ -13,17 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSSandXPath", "CSSandXPath\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSuchElementException", "NoSuchElementException\NoSuchElementException.csproj", "{9D5DB883-E622-4C7D-8644-CA0B3458C45C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input Text Box", "Input Text Box\Input Text Box.csproj", "{D98B5275-4140-42EA-ABC0-5399D92531A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Input Text Box", "Input Text Box\Input Text Box.csproj", "{D98B5275-4140-42EA-ABC0-5399D92531A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBox", "CheckBox\CheckBox.csproj", "{C03983C1-737C-4BD3-8C52-74B75AA2FAF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckBox", "CheckBox\CheckBox.csproj", "{C03983C1-737C-4BD3-8C52-74B75AA2FAF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButton", "RadioButton\RadioButton.csproj", "{C5C4CBA9-8D42-4113-BF97-C1D8DE74C8EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioButton", "RadioButton\RadioButton.csproj", "{C5C4CBA9-8D42-4113-BF97-C1D8DE74C8EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropDownManu", "DropDownManu\DropDownManu.csproj", "{DFB22048-8070-4448-AEE8-40BD34FDA17B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DropDownManu", "DropDownManu\DropDownManu.csproj", "{DFB22048-8070-4448-AEE8-40BD34FDA17B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertBox", "AlertBox\AlertBox.csproj", "{A2A31F42-4AF8-4229-8A37-80A1BDE1266A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlertBox", "AlertBox\AlertBox.csproj", "{A2A31F42-4AF8-4229-8A37-80A1BDE1266A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm", "LoginForm\LoginForm.csproj", "{8587838A-2430-411C-BD78-92D8B4903E6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginForm", "LoginForm\LoginForm.csproj", "{8587838A-2430-411C-BD78-92D8B4903E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTest", "AutoTest\AutoTest.csproj", "{1257C713-B6EF-4689-9BBB-C7F1C37CA999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8587838A-2430-411C-BD78-92D8B4903E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8587838A-2430-411C-BD78-92D8B4903E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8587838A-2430-411C-BD78-92D8B4903E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1257C713-B6EF-4689-9BBB-C7F1C37CA999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1257C713-B6EF-4689-9BBB-C7F1C37CA999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1257C713-B6EF-4689-9BBB-C7F1C37CA999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1257C713-B6EF-4689-9BBB-C7F1C37CA999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
