@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "AutoTest": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Key": "Value"
+      },
+      "remoteDebugEnabled": false
+    }
+  }
+}

@@ -1,7 +1,6 @@
-﻿using AutoTest.UIElements;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using OpenQA.Selenium;
-using System.Threading;
+using System;
 
 namespace AutoTest
 {
@@ -9,7 +8,8 @@ namespace AutoTest
     {
         IAlert alert;
         static void Main()
-        {            
+        {
+
         }
 
         [SetUp]
@@ -18,7 +18,7 @@ namespace AutoTest
             Actions.InitializerDriver();
         }
 
-        [Test]
+        [Test] 
         public void ValidLogin()
         {
             NavigateTo.LoginFormThroughtTheMenu();
