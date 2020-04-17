@@ -16,7 +16,7 @@ namespace SizeAndPosition
             Point position = new Point();
             position.X = 400;
             position.Y = 250;
-
+           
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Size = size;
             driver.Manage().Window.Position = position;
