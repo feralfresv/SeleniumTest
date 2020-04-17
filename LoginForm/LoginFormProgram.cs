@@ -11,7 +11,7 @@ namespace LoginForm
 //Username field with correct login credentials(valid login)
     class LoginFormProgram
     {
-        static IWebDriver driver = new ChromeDriver();
+        static readonly IWebDriver driver = new ChromeDriver();
         static IWebElement textboxUsername, textboxPassword, textboxRepeatPaswword, buttonClick;
         static IAlert alert;
 

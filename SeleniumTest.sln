@@ -25,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlertBox", "AlertBox\AlertB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginForm", "LoginForm\LoginForm.csproj", "{8587838A-2430-411C-BD78-92D8B4903E6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTest", "AutoTest\AutoTest.csproj", "{1257C713-B6EF-4689-9BBB-C7F1C37CA999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoTest", "AutoTest\AutoTest.csproj", "{1257C713-B6EF-4689-9BBB-C7F1C37CA999}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumScreenshot", "SeleniumScreenshot\SeleniumScreenshot.csproj", "{636B00C5-099F-4D05-B4B9-29A7D39BDC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementLocations", "ElementLocations\ElementLocations.csproj", "{98EF44ED-C203-421C-8355-5773956B371F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{1257C713-B6EF-4689-9BBB-C7F1C37CA999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1257C713-B6EF-4689-9BBB-C7F1C37CA999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1257C713-B6EF-4689-9BBB-C7F1C37CA999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636B00C5-099F-4D05-B4B9-29A7D39BDC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636B00C5-099F-4D05-B4B9-29A7D39BDC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636B00C5-099F-4D05-B4B9-29A7D39BDC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636B00C5-099F-4D05-B4B9-29A7D39BDC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EF44ED-C203-421C-8355-5773956B371F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EF44ED-C203-421C-8355-5773956B371F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EF44ED-C203-421C-8355-5773956B371F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EF44ED-C203-421C-8355-5773956B371F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

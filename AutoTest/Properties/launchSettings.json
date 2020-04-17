@@ -6,6 +6,9 @@
         "Key": "Value"
       },
       "remoteDebugEnabled": false
+    },
+    "Docker": {
+      "commandName": "Docker"
     }
   }
 }
