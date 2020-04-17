@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementLocations", "Element
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLikeActions", "UserLikeActions\UserLikeActions.csproj", "{4CA9BBF5-958C-4507-9741-FB7043253D53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentBrowsers", "DifferentBrowsers\DifferentBrowsers.csproj", "{2DE31D88-A91A-4A9E-B53B-CBCFA068AA48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{4CA9BBF5-958C-4507-9741-FB7043253D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CA9BBF5-958C-4507-9741-FB7043253D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CA9BBF5-958C-4507-9741-FB7043253D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE31D88-A91A-4A9E-B53B-CBCFA068AA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE31D88-A91A-4A9E-B53B-CBCFA068AA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE31D88-A91A-4A9E-B53B-CBCFA068AA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE31D88-A91A-4A9E-B53B-CBCFA068AA48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
